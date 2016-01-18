@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "A timestamp microservice.",
   "main": "server.js",
+  "scripts":{
+    "start": "gulp"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/StevenXL/fcc-timestamp-microservice"
