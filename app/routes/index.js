@@ -19,7 +19,7 @@ module.exports = function(app) {
 
     if (!unix || !formattedDate) {
       unix = null;
-      natural = null;
+      formattedDate = null;
     }
 
     res.send({'unix': unix, 'natural': formattedDate});
