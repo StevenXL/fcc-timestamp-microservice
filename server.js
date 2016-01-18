@@ -5,11 +5,14 @@ var express = require('express'),
     app     = express();
 
 
+
+app.set('port', (process.env.PORT || 5000));
+
 routes(app);
 
 app.use('/public', express.static(process.cwd() + '/public'));
 app.use('/controllers', express.static(process.cwd() + '/app/controllers'));
 
-app.listen(8080, function() {
-  console.log("Listening on port 8080...");
+app.listen(app.get('port'), function() {
+  console.log('Node app is running on port', app.get('port'));
 });
