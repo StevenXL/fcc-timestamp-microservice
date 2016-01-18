@@ -8,14 +8,8 @@
     "url": "https://github.com/StevenXL/fcc-timestamp-microservice"
   },
   "homepage": "http://stevenleiva.com/",
-  "keywords": [
-    "MEAN",
-    "Express",
-    "Node",
-    "javascript",
-  ],
   "author": "Steven Leiva",
   "dependencies": {
-    "express": "^4.13.3",
+    "express": "^4.13.3"
   }
 }
