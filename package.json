@@ -4,7 +4,7 @@
   "description": "A timestamp microservice.",
   "main": "server.js",
   "scripts":{
-    "start": "gulp"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
