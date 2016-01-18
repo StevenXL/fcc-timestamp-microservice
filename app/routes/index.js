@@ -18,7 +18,8 @@ module.exports = function(app) {
     }
 
     if (!unix || !formattedDate) {
-      res.sendFile(process.cwd() + '/public/index.html');
+      unix = null;
+      natural = null;
     }
 
     res.send({'unix': unix, 'natural': formattedDate});
